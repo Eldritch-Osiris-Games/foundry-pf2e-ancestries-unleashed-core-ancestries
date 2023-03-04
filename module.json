@@ -1,0 +1,95 @@
+{
+  "name": "pf2e-ancestries-unleashed-core-ancestries",
+  "title": "PF2e Ancestries Unleashed - Core Ancestry Options",
+  "description": "A collection of heritages, feats, and all-new Exemplar Feats made to expand the options available to the core ancestries by Luis Loza & James Beck.",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.288"
+  },
+  "author": "Pardack",
+  "flags": {
+    "pf2e-ancestries-unleashed-core-ancestries": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "exemplar": {
+            "label": "Exemplar",
+            "description": "An ancestry feat with the exemplar trait represents ancestral abilities that are particularly powerful. A feat with this trait can be selected with a class feat or an ancestry feat. When using a class feat to select a feat with the exemplar trait, you select the feat in place of the class feat, meeting prerequisites as normal. When using an ancestry feat to select a feat with the exemplar trait, you must be at least twice the level of the feat. For example, you must be at least 12th level to select a 6th level feat with the exemplar trait as an ancestry feat."
+          },
+          "half-dwarf": {
+            "label": "Half-Dwarf",
+            "description": "This trait indicates feats and abilities associated with half-dwarves"
+          },
+          "half-gnome": {
+            "label": "Half-Gnome",
+            "description": "This trait indicates feats and abilities associated with half-gnomess"
+          },
+          "half-goblin": {
+            "label": "Half-Goblin",
+            "description": "This trait indicates feats and abilities associated with half-goblins"
+          },
+          "half-halfling": {
+            "label": "Half-Halfling",
+            "description": "This trait indicates feats and abilities associated with half-halflings"
+          },
+          "half-human": {
+            "label": "Half-Humans",
+            "description": "This trait indicates feats and abilities associated with half-humans"
+          }
+        }
+      }
+    }
+  },
+  "packs": [
+    {
+      "label": "Ancestries Unleashed - Core - Actions",
+      "type": "Item",
+      "name": "ancestries-unleashed-core-actions",
+      "path": "./packs/ancestries-unleashed-core-actions.db",
+      "system": "pf2e",
+      "package": "ancestries-unleashed-core-ancestries",
+      "private": false
+    },
+    {
+      "label": "Ancestries Unleashed - Core - Effects",
+      "type": "Item",
+      "name": "ancestries-unleashed-core-effects",
+      "path": "./packs/ancestries-unleashed-core-effects.db",
+      "system": "pf2e",
+      "package": "ancestries-unleashed-core-ancestries",
+      "private": false
+    },
+    {
+      "label": "Ancestries Unleashed - Core - Exemplar Feats",
+      "type": "Item",
+      "name": "ancestries-unleashed-core-exemplar-feats",
+      "path": "./packs/ancestries-unleashed-core-exemplar-feats.db",
+      "system": "pf2e",
+      "package": "ancestries-unleashed-core-ancestries",
+      "private": false
+    },
+    {
+      "label": "Ancestries Unleashed - Core - Feats",
+      "type": "Item",
+      "name": "ancestries-unleashed-core-feats",
+      "path": "./packs/ancestries-unleashed-core-feats.db",
+      "system": "pf2e",
+      "package": "ancestries-unleashed-core-ancestries",
+      "private": false
+    },
+    {
+      "label": "Ancestries Unleashed - Core - Heritages",
+      "type": "Item",
+      "name": "ancestries-unleashed-core-heritages",
+      "path": "./packs/ancestries-unleashed-core-heritages.db",
+      "system": "pf2e",
+      "package": "ancestries-unleashed-core-ancestries",
+      "private": false
+    }
+  ],
+  "esmodules": [],
+  "styles": [],
+  "socket": false,
+  "system": ["pf2e"],
+  "minimumSystemVersion": "4.2.6"
+}
