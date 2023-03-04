@@ -87,9 +87,13 @@
       "private": false
     }
   ],
-  "esmodules": [],
+  "esmodules": ["popup.js"],
   "styles": [],
   "socket": false,
   "system": ["pf2e"],
-  "minimumSystemVersion": "4.2.6"
+  "minimumSystemVersion": "4.2.6",
+
+  "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/foundry-pf2e-ancestries-unleashed-core-ancestries/main/module.json",
+  "download": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-ancestries-unleashed-core-ancestries/archive/refs/heads/main.zip",
+  "url": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-ancestries-unleashed-core-ancestries"
 }
